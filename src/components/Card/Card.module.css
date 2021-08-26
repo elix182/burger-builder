@@ -1,0 +1,15 @@
+.Card {
+    margin: 20pt auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2pt 3pt #ccc;
+    border: 1pt solid #eee;
+    padding: 10pt;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px){
+    .Card {
+        width: 500pt;
+    }
+}
